@@ -6,6 +6,12 @@ footer{
     padding: 1rem;
 }
 
+.inner-container,
+.grid-container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 html{
     font-size: 100%;
     // browser default size for scalability
