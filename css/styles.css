@@ -213,10 +213,12 @@ section {
   }
 }
 footer {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+footer .inner-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.6875rem;
-  border-top: 1px solid rgb(222, 222, 222);
   justify-content: space-between;
 }
 footer .col {
@@ -230,4 +232,10 @@ footer input {
   line-height: 2.5rem;
   padding-left: 0.75rem;
   width: 100%;
+}
+
+@media screen and (min-width: 740px) {
+  footer .col:last-of-type {
+    flex: 1 1 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */

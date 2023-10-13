@@ -77,7 +77,10 @@
             <section class="popular-posts">
                 <h2>Popular Posts</h2>
                 <article>
-                    <img src="img/vrkasana-yoga.jpg" alt="Person doing yoga on a rooftop">
+                    <picture>
+                        <source srcset="img/vrkasana-yoga-port.jpg" media="(min-width: 1800px)">
+                        <img src="img/vrkasana-yoga.jpg" alt="Person doing yoga on a rooftop">
+                    </picture>
                     <div>
 
                         <h3>Benefits of Yoga</h3>
@@ -131,32 +134,35 @@
     </main>
 
     <footer>
-        <div class="col">
-            <h2>Magazine</h2>
-        </div>
-        <div class="col">
-            <h2>Navigation</h2>
-            <ul class="site-map">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Popular</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h2>Categories</h2>
-            <ul class="categories">
-                <li><a href="#">Meals</a></li>
-                <li><a href="#">Exercises</a></li>
-                <li><a href="#">Mind</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h2>Newsletter</h2>
-            <form action="#" method="post">
-                <label for="email">Email</label>
-                <input id="email" type="email">
-            </form>
+        <div class="inner-container">
+
+            <div class="col">
+                <h2>Magazine</h2>
+            </div>
+            <div class="col">
+                <h2>Navigation</h2>
+                <ul class="site-map">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h2>Categories</h2>
+                <ul class="categories">
+                    <li><a href="#">Meals</a></li>
+                    <li><a href="#">Exercises</a></li>
+                    <li><a href="#">Mind</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h2>Newsletter</h2>
+                <form action="#" method="post">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </form>
+            </div>
         </div>
     </footer>
 </body>
