@@ -13,7 +13,7 @@ section{
     }
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: $small) {
     .grid-container{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -51,4 +51,11 @@ section{
     }
 
     
+}
+
+@media screen and (min-width: $lg){
+    .popular-posts article{
+        display: flex;
+        
+    }
 }

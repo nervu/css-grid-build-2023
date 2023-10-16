@@ -212,6 +212,11 @@ section {
     grid-column: 9/span 4;
   }
 }
+@media screen and (min-width: 1500px) {
+  .popular-posts article {
+    display: flex;
+  }
+}
 footer {
   border-top: 1px solid rgb(222, 222, 222);
 }
